@@ -1,0 +1,272 @@
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'), url(https://fonts.gstatic.com/s/notosans/v7/o-0IIpQlx3QUlC5A4PNr5TRASf6M7Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v12/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Chakra Petch';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Chakra Petch Regular'), local('ChakraPetch-Regular'), url(https://fonts.gstatic.com/s/chakrapetch/v1/cIf6MapbsEk7TDLdtEz1BwkWn6pgar3I1A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Niramit';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Niramit Regular'), local('Niramit-Regular'), url(https://fonts.gstatic.com/s/niramit/v2/I_uuMpWdvgLdNxVLXbNakwKso5c.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*Nav Styles*/
+#contact{
+    padding: 0;
+}
+
+#contact:hover{
+    font-size: 2rem !important;
+}
+
+nav{
+    background-color: #FFFFFF !important;
+    /*align-items: center;*/
+}
+
+.navbar{
+    height: 6rem;
+}
+
+.nav-link{
+    font-family: 'Noto Sans', sans serif;
+    font-size: 1.25rem;
+    padding-left: 4rem;
+    color: black !important;
+}
+
+a.navbar-brand{
+    font-family: 'Chakra Petch', sans serif ;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-left: 1rem;
+    letter-spacing: 0.5rem;
+    color: black !important;
+}
+
+/*Jumbotron Styles*/
+
+.jumbotron{
+    margin-top: 5rem;
+    height: 100%;
+    font-family: 'Niramit', sans serif;
+    background: url("/assets/images/jumbo.jpg") no-repeat center;
+    background-size: cover;
+    text-shadow: 2px 3px 3px rgba(0,0,0,0.3);
+}
+
+.jumbotron .element{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.jumbotron .display-4{
+    font-size: 7rem;
+}
+
+.my-4{
+    color: #bababa;
+}
+
+/*Info Card Styles*/
+
+.info-cards {
+    margin-bottom: 5rem;
+}
+
+.info-cards .card {
+    margin-bottom: 2rem;
+    margin: 2rem auto;
+    height: 25rem;
+}
+
+/*Footer Styles*/
+
+footer{
+    background-color: rgb(192,192,192, 0.1);
+    width: 100%;
+    margin-top: 2rem;
+    font-family:  'Chakra Petch', sans serif;
+    color: black;
+    padding: 2rem 4rem;
+    align-text: center;
+}
+
+
+/*Sign In / Ticket Styles*/
+
+.signin-body {
+    background-color: #f9f9f9;
+}
+
+.signin-header {
+    text-align: center;
+    margin-top: 2.5rem;
+    font-family: 'Chakra Petch';
+}
+
+.container.signin-page {
+    margin-top: 2.5rem;
+    padding-bottom: 2rem;
+    border: 1px solid #e0e0d9;
+    width: 50%;
+    min-width: 300px;
+    background-color: white;
+    
+}
+
+.signin-page {
+    padding-top: 2rem;
+}
+
+.signin-page h1 {
+    margin-bottom: 2rem;
+}
+
+
+/*Ticket Page*/
+
+#textarea{
+    width: 100%;
+}
+
+.ticket-submit {
+    margin: 1.4rem 0;
+}
+
+.ticket-body {
+    background-color: #f9f9f9;
+}
+
+
+/*Chat Styles*/
+
+.chathead{
+    font-family: Niramit, sans serif;
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.message-input-group{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+.message-input-body {
+    width: 80%;
+    margin: 1.5rem 0;
+    
+}
+
+.send-button{
+    width: 20%;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+.cancel-button {
+    width: 20%;
+}
+
+.public-chat{
+    width: 90%;
+}
+
+div.wrap {
+    height: 35rem;
+    overflow: scroll;
+    margin: 0 auto ;
+    background: #eee;
+    opacity: 0.5;
+}
+
+div.cell {
+    padding: 5px;
+}
+
+#author-name {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+/*Admin Dashboard Styles*/
+
+.admin-dashboard {
+    text-align: center;
+}
+
+/*@media only screen and (max-width: 414px){*/
+/*    .admin-dashboard table {*/
+/*        font-size: 0.8rem;*/
+/*    }*/
+/*    .admin-dashboard td {*/
+/*        width: 30%;*/
+/*    }*/
+/*}  */
+
+
+/*Card Styles*/
+
+.card{
+    height: 30rem !important;
+}
+
+
+
+
+/*End Page*/
+
+.end-page {
+    text-align: center;
+    padding-top: 18rem;
+}
+
+#handleThisBootStrap{
+    flex: 0 0 100% !important;
+}
+
+footer{
+    text-align: center;
+}
+
+
+
+
+
+
+#julian-signature {
+    width: 300px;
+}
+
+
+
+
+
+

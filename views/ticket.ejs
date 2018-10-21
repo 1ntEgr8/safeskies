@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Submit Ticket</title>    <meta charset="utf-8">
+    <link href = "/assets/stylesheets/style.css" rel = "stylesheet" type  = "text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  
+  <body class="ticket-body">
+
+    <h1 class="signin-header"><img class = "fade" src = "/assets/images/safeskies.png" height = "70rem" width = "70rem" style = "margin-right: 1rem"></img>Submit Ticket</h1>
+      <div class="container signin-page">
+        <!--<small id="emailHelp" class="form-text text-muted"></small>-->
+        <div>
+          <form action="/dashboard/ticket" method="POST">
+            <textarea id="textarea" rows="5" name="ticket_reason" required placeholder="Please describe your situation concisely and accurately."></textarea>
+            <button type="submit" class="btn btn-primary ticket-submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      
+      
+    <!--Scripts-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="/assets/js/landing.js"></script>
+  </body>
+</html>
